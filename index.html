@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>音声AIアシスタント「ふゆ」</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f0f2f5; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .chat-container { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-align: center; width: 350px; }
+        button { background: #0070f3; color: white; border: none; padding: 12px 24px; border-radius: 25px; font-size: 16px; cursor: pointer; margin-top: 20px; transition: 0.2s; }
+        button:hover { background: #0051cb; }
+        #status { color: #666; margin-top: 15px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <h2>AIエージェント「ふゆ」</h2>
+        <p>ボタンを押して話しかけてください</p>
+        <button id="mic-btn">🎤 お話しする</button>
+        <div id="status">待機中...</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
