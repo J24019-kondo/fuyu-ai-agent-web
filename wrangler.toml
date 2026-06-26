@@ -1,0 +1,9 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "fuyu-ai-agent-web"
+pages_build_output_dir = "."
+
+[compatibility_flags]
+
+[[env.production.vars]]
+# 💡 もしダッシュボード側の環境変数が読み込めない時のために、ここにも定義しておくと安全です
+# GEMINI_API_KEY = "ここに直接キーは書かない（セキュリティのため空欄でOK）"
